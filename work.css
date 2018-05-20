@@ -50,7 +50,7 @@
 .work.cell.medium {
 	flex-grow: 0 !important;
 	height: 5rem !important;
-	background-color: yellow !important;
+	background-color: #afafaf !important;
 	/*flex: 0 !important;*/
 }
 .work.cell.tall {
