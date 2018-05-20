@@ -1,0 +1,61 @@
+.work.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.work.col {
+	min-height: 0;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.work.col.one { max-width: 8.333%;}
+.work.col.two { max-width: 16.667%; }
+.work.col.three { max-width: 25%; }
+.work.col.four { max-width: 33.333%; }
+.work.col.five { max-width: 41.667%; }
+.work.col.six { max-width: 50%; }
+.work.col.seven { max-width: 58.333% }
+.work.col.eight { max-width: 66.667%; }
+.work.col.nine { max-width: 75%; }
+.work.col.ten { max-width: 83.333%; }
+.work.col.eleven { max-width: 91.667% }
+.work.col.twelve { max-width: 100%; }
+
+.work.col.gutters > .cell {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+.work.row.gutters > .col {
+	margin:0.25rem;
+}
+.work.col > .work.cell {
+	flex-grow: 1;
+	flex-shrink: 1;
+	min-height: 0px;	
+	background-color: orange;
+}
+.center-all > .work.col > .work.cell {
+	display: flex;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.work.cell.short {
+	flex-grow: 0 !important;
+	height: 2rem !important;
+	background-color: green !important;
+	/*flex: 0 !important;*/
+}
+.work.cell.medium {
+	flex-grow: 0 !important;
+	height: 5rem !important;
+	background-color: yellow !important;
+	/*flex: 0 !important;*/
+}
+.work.cell.tall {
+	flex-grow: 0 !important;
+	background-color: red !important;
+	height: 10rem !important;
+	/*flex: 0 !important;/*/
+}
