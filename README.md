@@ -31,4 +31,5 @@ Each cell has a set height to demonstrate how WorkGrid adjusts appropriately.
 			<div class="work cell">This is auto heigh</div>
 		</div>
 	</div>	
+</div>
 ```
